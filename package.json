@@ -1,8 +1,21 @@
 {
-  "dependencies": {
-    "@tailwindcss/vite": "^4.1.17",
-    "motion": "^12.23.26",
-    "react-router-dom": "^7.9.6",
-    "tailwindcss": "^4.1.17"
-  }
+  "name": "quick-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darshanaujad/Quick-Blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/darshanaujad/Quick-Blog/issues"
+  },
+  "homepage": "https://github.com/darshanaujad/Quick-Blog#readme"
 }
