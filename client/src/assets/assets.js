@@ -68,7 +68,7 @@ export const blog_data = [
         "category": "Lifestyle",
         "image": blog_pic_1,
         "createdAt": "2026-01-03T07:06:37.508Z",
-        "updatedAt": "2025-04-24T08:26:29.750Z",
+        "updatedAt": "2026-01-03T08:26:29.750Z",
         "__v": 0,
         "isPublished": true,
         "subTitle": "A Simple Step-by-Step Guide to Managing Your Lifestyle"
@@ -80,7 +80,7 @@ export const blog_data = [
         "category": "Startup",
         "image": blog_pic_2,
         "createdAt": "2026-01-03T07:08:56.214Z",
-        "updatedAt": "2025-04-24T08:30:47.920Z",
+        "updatedAt": "2026-01-03T08:30:47.920Z",
         "__v": 0,
         "isPublished": true,
         "subTitle": "Creating an effective <strong>startup roadmap"
@@ -92,7 +92,7 @@ export const blog_data = [
         "category": "Technology",
         "image": blog_pic_3,
         "createdAt": "2026-01-03T07:24:26.853Z",
-        "updatedAt": "2025-04-24T08:20:36.187Z",
+        "updatedAt": "2026-01-03T08:20:36.187Z",
         "__v": 0,
         "isPublished": true,
         "subTitle": "Learning New Tech to Boost Your Software Career"
@@ -104,7 +104,7 @@ export const blog_data = [
         "category": "Technology",
         "image": blog_pic_4,
         "createdAt": "2026-01-03T07:25:22.362Z",
-        "updatedAt": "2025-04-24T08:20:36.979Z",
+        "updatedAt": "2026-01-03T08:20:36.979Z",
         "__v": 0,
         "isPublished": true,
         "subTitle": "Tips for Getting the Most Out of Apps and Software"
@@ -128,7 +128,7 @@ export const blog_data = [
         "category": "Startup",
         "image": blog_pic_6,
         "createdAt": "2026-01-03T07:26:28.058Z",
-        "updatedAt": "2025-04-24T09:32:08.179Z",
+        "updatedAt": "2025-01-03T09:32:08.179Z",
         "__v": 0,
         "isPublished": true,
         "subTitle": "Maximizing Returns by Minimizing Resources in Your Startup"
@@ -140,7 +140,7 @@ export const blog_data = [
         "category": "Finance",
         "image": blog_pic_7,
         "createdAt": "2026-01-03T11:24:44.773Z",
-        "updatedAt": "2025-04-24T09:31:52.102Z",
+        "updatedAt": "2026-01-03T09:31:52.102Z",
         "__v": 0,
         "isPublished": true,
         "subTitle": "What Do They Mean for the Market?"
@@ -153,7 +153,7 @@ export const blog_data = [
         "image": blog_pic_8,
         "isPublished": true,
         "createdAt": "2026-01-03T08:44:34.937Z",
-        "updatedAt": "2025-04-24T09:59:21.299Z",
+        "updatedAt": "2026-01-03T09:59:21.299Z",
         "__v": 0,
         "subTitle": "The New Way of Study: Ditching the Old"
     },
@@ -165,7 +165,7 @@ export const blog_data = [
         "image": blog_pic_9,
         "isPublished": true,
         "createdAt": "2026-01-05T09:18:19.662Z",
-        "updatedAt": "2025-04-29T10:13:25.035Z",
+        "updatedAt": "2026-01-05T10:13:25.035Z",
         "__v": 0,
         "subTitle": " Why Tourism Matters More Than You Think"
     },
@@ -177,7 +177,7 @@ export const blog_data = [
         "image": blog_pic_10,
         "isPublished": true,
         "createdAt": "2026-01-05T10:14:58.575Z",
-        "updatedAt": "2025-04-29T10:14:58.575Z",
+        "updatedAt": "2026-01-05T10:14:58.575Z",
         "__v": 0,
         "subTitle": "Navigating the Future Responsibly"
     }

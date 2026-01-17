@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom'
 import { blog_data, comments_data } from '../assets/assets'
 import { assets } from '../assets/assets'
 import NavBar from '../components/NavBar'
+import Footer from '../components/Footer'
 import Moment from 'moment'
 
 const Blog = () => {
@@ -11,8 +12,8 @@ const Blog = () => {
   const [data, setData] = useState(null);
   const [comments, setComments] = useState([]);
 
-  const {name , setName} = useState('')
-  const {content , setContent} = useState('')
+  const { name, setName } = useState('')
+  const { content, setContent } = useState('')
 
 
   const fetchBlogData = async () => {
@@ -24,13 +25,13 @@ const Blog = () => {
     setComments(comments_data)
   }
 
-  const addComment = async (e) =>{
+  const addComment = async (e) => {
     e.preventDefault()
   }
   useEffect(() => {
     fetchBlogData()
     fetchComments()
-    
+
   }, [])
 
 
@@ -68,19 +69,37 @@ const Blog = () => {
             ))}
           </div>
         </div>
-            {/* {--- Add comment section} */}
+        {/* {--- Add comment section} */}
 
         <div className='max-w-3xl mx-auto'>
-            <p className='font-semibold mb-4'>Add Your Comment</p>
+
+          <p className='font-semibold mb-4'>Add Your Comment</p>
+
           <form onSubmit={addComment} className='flex flex-col items-start gap-4 max-w-lg'>
-              <input onChange={(e)=>setName(e.target.value)} value={name} type="text" placeholder='Name'  required className='w-full p-2 border border-gray-300 rounded outline-none'/>
-              <textarea onChange={(e)=>setContent(e.target.value)} value={content} placeholder='Comment' className='w-full p-2 border border-gray-300 rounded outline-none h-48 ' required></textarea>
-              <button className='bg-primary text-white rounded p-2 px-8 hover:scale-102 transition-all cursor-pointer' type="submit">Submit</button>
+
+            <input onChange={(e) => setName(e.target.value)} value={name} type="text"
+              placeholder='Name' required className='w-full p-2 border border-gray-300 rounded outline-none' />
+
+            <textarea onChange={(e) => setContent(e.target.value)} value={content}
+              placeholder='Comment' className='w-full p-2 border border-gray-300 rounded outline-none h-48 ' required>
+            </textarea>
+
+            <button className='bg-primary text-white rounded p-2 px-8 hover:scale-102 transition-all cursor-pointer'
+              type="submit">Submit</button>
           </form>
         </div>
-        {/* Share Button  */}
-      </div>
 
+        {/* Share Button  */}
+        <div className='my-24 max-w-3xl mx-auto'>
+          <p className='font-semibold my-4'>Share this article on social media</p>
+          <div className='flex'>
+            <img src={assets.facebook_icon} width={50} alt="" />
+            <img src={assets.twitter_icon} width={50} alt="" />
+            <img src={assets.googleplus_icon} width={50} alt="" />
+          </div>
+        </div>
+      </div>
+      <Footer />
     </div>
   ) : <div>Loding...</div>
 }
